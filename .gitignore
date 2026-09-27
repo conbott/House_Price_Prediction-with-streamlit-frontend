@@ -1,0 +1,13 @@
+# Ignore heavy raw datasets (>100MB breaks GitHub)
+dataset_proj/
+*.csv
+*.zip
+
+# Python & Jupyter cache
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+
+# Environment & logs
+*.log
+.vscode/
